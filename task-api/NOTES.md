@@ -39,3 +39,6 @@
 - Max page size / limit?
 - Should completing twice be an error, a no-op, or an update?
 - Which status vocabulary is the real one?
+
+"Manually tested the assign endpoint with PowerShell, and it works."
+"Reproduced BUG-7 by accident when a quoting mistake in my curl command sent broken JSON."

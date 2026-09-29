@@ -23,7 +23,7 @@ The bug numbers match the `BUG-n` comments in the tests. Every bug that is still
 
 ## BUG-2: Pagination skips the first page (High) — FIXED
 
-**Where:** `src/services/taskService.js`, `getPaginated`, around line 12
+**Where:** `src/services/taskService.js`, `getPaginated`, line 12
 
 **Expected:** `GET /tasks?page=1&limit=2` returns the first two tasks.
 
