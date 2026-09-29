@@ -28,5 +28,5 @@ Time:        2.226 s
 Tests: 98 passed. Suites: 4 passed.
 
 Notes:
-- Remaining uncovered lines: app.js 17-18 (the `app.listen` branch, only runs when started directly) and one default-value branch in taskService.js.
+- The one uncovered branch in taskService.js (line 22) is in getStats, for a task with an unknown status. The validator prevents this through the API.
 - Tests marked `it.failing` document known unfixed bugs (see BUGS.md).

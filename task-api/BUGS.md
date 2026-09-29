@@ -4,7 +4,7 @@ I found these bugs by writing tests first and reading the code second. Where a t
 
 Line numbers are approximate, because I was counting them by hand from the original files. The function names are exact.
 
-The bug numbers match the `BUG-n` comments in the tests. Every bug that is still open has an `it.failing` test that describes the correct behaviour. Those tests pass today (Jest expects them to fail). When someone fixes the bug, Jest will flag the test, and they can change `it.failing` to `it`.
+Each bug below has a matching test in the test files, marked with a BUG-n comment. For bugs I haven't fixed, the test uses it.failing, which means "this test is expected to fail because the bug still exists." Once the bug is fixed, I'd change it.failing to it.
 
 ## Summary
 
